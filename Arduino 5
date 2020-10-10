@@ -1,0 +1,13 @@
+int led = 13;
+int inputPin = 4;
+int value;
+
+void setup(){
+    pinMode(led,OUTPUT);
+    pinMode(inputPin,INPUT);
+}
+
+void loop(){
+    value = digitalRead(inputPin);
+    digitalWrite(led,value);
+}

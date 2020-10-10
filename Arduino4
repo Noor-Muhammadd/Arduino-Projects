@@ -1,0 +1,33 @@
+int led = 13;
+
+void setup(){
+    pinMode(led, OUTPUT);
+}
+
+//light jolbe
+
+void loop(){
+    digitalWrite(led, HIGH);
+    //delay(1000);
+    digitalWrite(led,LOW);
+    //delay(1000);
+}
+
+
+// light jolbe
+
+void loop(){
+    digitalWrite(led, HIGH);
+    delay(1000);
+    digitalWrite(led,LOW);
+    //delay(1000);
+}
+
+//light nive jabe
+
+void loop(){
+    digitalWrite(led, HIGH);
+    //delay(1000);
+    digitalWrite(led,LOW);
+    delay(1000);
+}
